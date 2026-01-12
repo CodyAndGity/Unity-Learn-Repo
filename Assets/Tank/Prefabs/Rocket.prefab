@@ -30,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7633983890508589726}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.27072293, y: -0.88779837, z: -0.14016314, w: 0.34478614}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.23, y: 0.23, z: 0.23}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -25.821, y: -143.431, z: 25.254}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7489317642381669774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rocket
   effect: {fileID: 1428540705898108, guid: 4477ddaf0a6e9ee468b176c981f77432, type: 3}
-  speed: 2
+  speed: 20
 --- !u!33 &9133611905832446087
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -215,7 +215,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.2039814
         inSlope: 0
         outSlope: 0
         tangentMode: 0
